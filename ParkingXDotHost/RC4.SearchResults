@@ -1,0 +1,9 @@
+---- SENSOR_TYPE_TIMESTAMP_OVERFLOW Matches (8 in 3 files) ----
+Parking_module.c (middlewares\pni\parking):    case SENSOR_TYPE_TIMESTAMP_OVERFLOW:
+SENtralA2.c (middlewares\pni\sentral-a2):    case SENSOR_TYPE_TIMESTAMP_OVERFLOW:
+SENtralA2.c (middlewares\pni\sentral-a2):    case SENSOR_TYPE_TIMESTAMP_OVERFLOW:
+SENtralA2.c (middlewares\pni\sentral-a2):      || (sns->sid == SENSOR_TYPE_TIMESTAMP_OVERFLOW)
+SENtralA2.c (middlewares\pni\sentral-a2):  iface->event_sizes[SENSOR_TYPE_TIMESTAMP_OVERFLOW] = 3;
+SENtralA2.c (middlewares\pni\sentral-a2):      sensorId == SENSOR_TYPE_TIMESTAMP_OVERFLOW ||
+SENtralA2.c (middlewares\pni\sentral-a2):	case SENSOR_TYPE_TIMESTAMP_OVERFLOW:
+SENtralA2_types.h (middlewares\pni\sentral-a2):#define SENSOR_TYPE_TIMESTAMP_OVERFLOW                  253
